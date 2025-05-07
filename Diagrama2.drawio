@@ -1,0 +1,55 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="Page-1" id="p25e6CXnMlJ6qq3esQ6z">
+    <mxGraphModel dx="1027" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uEpuDIJFvzAV1p4GKAER-4" value="&lt;b&gt;Empleado&lt;/b&gt;" style="shape=swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="14" y="620" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uEpuDIJFvzAV1p4GKAER-18" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;dni: String&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uEpuDIJFvzAV1p4GKAER-4">
+          <mxGeometry x="46" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uEpuDIJFvzAV1p4GKAER-19" value="&lt;br style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;nombre: String&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uEpuDIJFvzAV1p4GKAER-4">
+          <mxGeometry x="21" y="55" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uEpuDIJFvzAV1p4GKAER-5" value="&lt;b&gt;Vendedor&lt;/b&gt;" style="shape=swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="520" width="185" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uEpuDIJFvzAV1p4GKAER-21" value="– numVendedor: int&lt;br&gt;– zona: String" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uEpuDIJFvzAV1p4GKAER-5">
+          <mxGeometry x="-12.5" y="50" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uEpuDIJFvzAV1p4GKAER-6" value="&lt;b&gt;Jefe&lt;/b&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="850" width="190" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="uEpuDIJFvzAV1p4GKAER-20" value="salario: double" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uEpuDIJFvzAV1p4GKAER-6">
+          <mxGeometry x="35" y="45" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uEpuDIJFvzAV1p4GKAER-7" style="endArrow=block;html=1;" edge="1" parent="1" source="uEpuDIJFvzAV1p4GKAER-5" target="uEpuDIJFvzAV1p4GKAER-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uEpuDIJFvzAV1p4GKAER-8" style="endArrow=block;html=1;" edge="1" parent="1" source="uEpuDIJFvzAV1p4GKAER-6" target="uEpuDIJFvzAV1p4GKAER-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uEpuDIJFvzAV1p4GKAER-9" value="&lt;b&gt;Poliza&lt;/b&gt;" style="shape=swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="750" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uEpuDIJFvzAV1p4GKAER-22" value="&lt;br&gt;– numPoliza: int&lt;br&gt;– importe: double&lt;br&gt;– fechaVenta: Date" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uEpuDIJFvzAV1p4GKAER-9">
+          <mxGeometry x="-10" y="40" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uEpuDIJFvzAV1p4GKAER-10" value="&lt;b&gt;Beneficiario&lt;/b&gt;" style="shape=swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="654" y="605" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uEpuDIJFvzAV1p4GKAER-23" value="&lt;br&gt;– nombre: String" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uEpuDIJFvzAV1p4GKAER-10">
+          <mxGeometry x="25" y="20" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uEpuDIJFvzAV1p4GKAER-11" style="endArrow=open;html=1;" edge="1" parent="1" source="uEpuDIJFvzAV1p4GKAER-9" target="uEpuDIJFvzAV1p4GKAER-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uEpuDIJFvzAV1p4GKAER-12" value="vende" style="endArrow=open;html=1;" edge="1" parent="1" source="uEpuDIJFvzAV1p4GKAER-5" target="uEpuDIJFvzAV1p4GKAER-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
