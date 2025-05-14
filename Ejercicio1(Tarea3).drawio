@@ -1,0 +1,52 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="ReservasCoches" id="jJU9HIF97KdxYzfAB1-u">
+    <mxGraphModel dx="1027" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bZlu16KqZGUOba3W-pX_-12" value="Cliente&#xa;" style="shape=swimlane;" vertex="1" parent="1">
+          <mxGeometry x="270" y="540" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="bZlu16KqZGUOba3W-pX_-22" value="&lt;div&gt;codigo: String&lt;/div&gt;&lt;div&gt;dni: String&lt;/div&gt;&lt;div&gt;nombre: String&lt;/div&gt;&lt;div&gt;direccion: String&lt;/div&gt;telefono: String" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bZlu16KqZGUOba3W-pX_-12">
+          <mxGeometry x="45" y="55" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bZlu16KqZGUOba3W-pX_-13" value="Reserva" style="shape=swimlane;" vertex="1" parent="1">
+          <mxGeometry x="540" y="540" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bZlu16KqZGUOba3W-pX_-23" value="+fechaInicio: Date&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+fechaFin: Date&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+precioTotal: float&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+entregado: boolean" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bZlu16KqZGUOba3W-pX_-13">
+          <mxGeometry x="25" y="45" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bZlu16KqZGUOba3W-pX_-14" value="Coche" style="shape=swimlane;" vertex="1" parent="1">
+          <mxGeometry x="760" y="530" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="bZlu16KqZGUOba3W-pX_-24" value="&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;+matricula: String&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;+modelo: String&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;+marca: String&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;+color: String&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;+litrosGasolina: float&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;+precioAlquiler: float&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="bZlu16KqZGUOba3W-pX_-14">
+          <mxGeometry x="70" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bZlu16KqZGUOba3W-pX_-15" value="Garaje" style="shape=swimlane;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="530" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bZlu16KqZGUOba3W-pX_-25" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;+id: String&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;+direccion: String&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="bZlu16KqZGUOba3W-pX_-15">
+          <mxGeometry x="40" y="55" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bZlu16KqZGUOba3W-pX_-16" value="Agencia" style="shape=swimlane;" vertex="1" parent="1">
+          <mxGeometry x="540" y="730" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bZlu16KqZGUOba3W-pX_-26" value="&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+id: String&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+direccion: String" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bZlu16KqZGUOba3W-pX_-16">
+          <mxGeometry x="20" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bZlu16KqZGUOba3W-pX_-17" style="endArrow=block;" edge="1" parent="1" source="bZlu16KqZGUOba3W-pX_-12" target="bZlu16KqZGUOba3W-pX_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bZlu16KqZGUOba3W-pX_-18" style="endArrow=block;" edge="1" parent="1" source="bZlu16KqZGUOba3W-pX_-13" target="bZlu16KqZGUOba3W-pX_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bZlu16KqZGUOba3W-pX_-19" style="endArrow=block;" edge="1" parent="1" source="bZlu16KqZGUOba3W-pX_-14" target="bZlu16KqZGUOba3W-pX_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bZlu16KqZGUOba3W-pX_-20" style="endArrow=block;" edge="1" parent="1" source="bZlu16KqZGUOba3W-pX_-13" target="bZlu16KqZGUOba3W-pX_-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
